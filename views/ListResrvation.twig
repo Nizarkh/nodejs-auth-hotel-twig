@@ -1,0 +1,31 @@
+<html>
+<head>
+<h1>List Reservation</h1>
+</head>
+
+<body>
+
+<table>
+
+<tr>
+<td>num_reservation</td>
+<td>nb_personnes</td>
+<td>date_debut</td>
+<td>date_fin</td>
+</tr>
+{% for item in data %}
+<tr>
+<td>{{item.num_res}}</td>
+<td>{{item.nb_personnes}}</td>
+<td>{{item.date_debut}}</td>
+<td>{{item.date_fin}}</td>
+</tr>
+{% endfor %}
+<tr>
+    <td><a href="../reservation/add/">Add reservation</a></td>
+</tr>
+</table>
+
+</body>
+
+</html>
