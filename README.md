@@ -24,7 +24,7 @@ $ git clone https://github.com/Nizarkh/nodejs-auth-hotel-twig.git
 
 Install the dependencies and start the server.
 
-$ cd hotel-booking-system
+$ cd nodejs-auth-hotel-twig
 
 
 $ npm install
