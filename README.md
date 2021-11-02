@@ -4,8 +4,14 @@ A simple hotel booking system api to manage bookings, users, hotels and rooms. T
 
 Tech
 Node.js- evented I/O 
+
+
 Express- fast node.js network app framework
+
+
 MongoDB- noSQL document oriented database
+
+
 
 Installation
 
@@ -22,9 +28,17 @@ $ cd hotel-booking-system
 
 
 $ npm install
+
+
 $ mongod
+
+
 $ node server
+
+
 $ npm start
+
+
 
 
 
@@ -39,8 +53,20 @@ Routes :
 
 
 /home
+
+
 /hotel
+
+
 /rooms
+
+
 /reservation
+
+
 /users
+
+
 /chat
+
+
